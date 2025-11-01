@@ -1,0 +1,27 @@
+:root {
+	--color-white: #ffffff;
+	--color-lignt-green: #E9EBC1;
+
+	--color-accent: #7FA55D;
+
+	--gradient: linear-gradient(90deg, --color-accent 0%, #FFF 100%);
+
+	--border: var(--border-width) solid var(--color-accent);
+	--border-width: 2px;
+	--border-l: var(--border-width-l) solid var(--color-accent);
+	--border-width-l: 32px;
+	
+	--gap-m: 20px;
+	--gap-s: 15px;
+	--gap-xs: 10px;
+
+	--font-family-base: 'Inter';
+
+	--container-width: #{$container-desktop-width}px;
+	--container-padding-x: 50px;
+	--container-padding-x-mobile: 20px;
+
+	--transition-duration: 0.2s;
+
+	--layer-mobile-menu: 10;
+}

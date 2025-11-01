@@ -1,0 +1,14 @@
+.hero {
+	&__slider-list {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+	}
+
+	&__slider-item {
+		min-width: 287px;
+		width: 16.6%;
+		background-color: var(--color-accent);
+
+	}
+}

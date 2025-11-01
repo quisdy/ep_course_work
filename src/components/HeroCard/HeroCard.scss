@@ -1,0 +1,11 @@
+.hero-card {
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	gap: var(--gap-xs);
+
+	&__title {
+		color: var(--color-lignt-green);
+		text-align: center;
+	}
+}
